@@ -22,13 +22,13 @@ header{
         div{
             h2{
                 font-size: 40px;
-                color: wheat;
+                color: $font-color-primary;
                 display: flex;
                 justify-content: center;
             }
             h3{
                 font-size: 30px;
-                color: rgb(209, 191, 157);
+                color: $font-color-primary;
                 display: flex;
                 justify-content: center;
             }
@@ -47,7 +47,7 @@ header{
                     a{
                         font-size: 25px;
                         text-decoration: none;
-                        color: wheat;
+                        color: $font-color-primary;
                     }
                     a:hover{
                         transition-duration: 0.4s;
@@ -81,7 +81,7 @@ main{
             h2{
                 font-size: 40px;
                 font-style: oblique;
-                text-decoration: underline 2px  rgba(255, 166, 0, 0.692);
+                text-decoration: underline 2px rgba(255, 166, 0, 0.692);
             }
             
             h4{
@@ -165,6 +165,11 @@ footer .footer__flex--container{
 footer .footer__img{
     display: flex;
     gap: 1em;
+}
+
+.footer__img img:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.3);
 }
 
 

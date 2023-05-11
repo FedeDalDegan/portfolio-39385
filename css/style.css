@@ -1,3 +1,8 @@
+/* Background colors */
+/* HEADER COLOR */
+/* MAIN COLOR */
+/* FOOTER COLOR */
+/* Fonts colors */
 @font-face {
   font-family: 'Edu NSW ACT Foundation', cursive;
   src: url(); }
@@ -9,7 +14,7 @@
   font-family: 'Playfair Display', serif; }
 
 header {
-  background-color: #000000;
+  background-color: #2C3639;
   height: 100px; }
   header nav div img {
     width: 170px;
@@ -20,12 +25,12 @@ header {
     transition: 0.4s; }
   header nav div h2 {
     font-size: 40px;
-    color: wheat;
+    color: #F8F5F1;
     display: flex;
     justify-content: center; }
   header nav div h3 {
     font-size: 30px;
-    color: #d1bf9d;
+    color: #F8F5F1;
     display: flex;
     justify-content: center; }
   header nav div ul {
@@ -41,7 +46,7 @@ header {
       header nav div ul li a {
         font-size: 25px;
         text-decoration: none;
-        color: wheat; }
+        color: #F8F5F1; }
       header nav div ul li a:hover {
         transition-duration: 0.4s;
         color: red; }
@@ -52,7 +57,7 @@ header {
   align-items: center; }
 
 main {
-  background-color: #F0F0F0; }
+  background-color: #FAEFDD; }
   main div img {
     height: 450px;
     width: 450px;
@@ -112,7 +117,7 @@ footer div img {
   width: 20px; }
 
 footer .footer__flex--container {
-  background-color: #F4EEE0;
+  background-color: #F2EFEA;
   height: 80px;
   display: flex;
   justify-content: space-around;
@@ -121,3 +126,7 @@ footer .footer__flex--container {
 footer .footer__img {
   display: flex;
   gap: 1em; }
+
+.footer__img img:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.3); }
