@@ -5,28 +5,32 @@
 @import "./base/reset";
 
 header{
-    background-color: #363333;
+    background-color: $background-principal; 
+    height: 100px;
     nav{
         div{
             img{
-                display: flex;
-                align-items: center;
                 width: 170px;
                 height: 50px;
+                padding-left: 15px;
+            }
+            img:hover{
+                transform: scale(1.1);
+                transition: 0.4s;
             }
         }
         div{
             h2{
-                display: flex;
-                justify-content: center;
                 font-size: 40px;
                 color: wheat;
-            }
-            h3{
                 display: flex;
                 justify-content: center;
+            }
+            h3{
                 font-size: 30px;
                 color: rgb(209, 191, 157);
+                display: flex;
+                justify-content: center;
             }
         }
         div{
@@ -35,52 +39,142 @@ header{
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: flex-end;
-                align-content: center;
                 gap: 25px;
                 margin: 0px 15px 0px 0px;
                 li{
                     list-style: none;
                     list-style-type: none;
-                    
                     a{
                         font-size: 25px;
                         text-decoration: none;
                         color: wheat;
-
-                        
+                    }
+                    a:hover{
+                        transition-duration: 0.4s;
+                        color: red;
                     }
                 }
             }
         }
     }
-    
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 main{
+    background-color: $background-secondary;
+    div{
+        img{
+            height: 450px;
+            width: 450px;
+            grid-column: 2 / 4;
+            grid-row: 2 / 6;
+            align-self: center;
+            justify-self: center;
+            border-radius: 50% 50% 0px 50%;
+        }
+            h2{
+                font-size: 40px;
+                font-style: oblique;
+                text-decoration: underline 2px  rgba(255, 166, 0, 0.692);
+            }
+            
+            h4{
+                font-size: 20px;
+                padding-top: 10px;
+            }
+            button{
+                grid-row: 5 / 6;
+                grid-column: 4 / 5;
+                background-color: white;
+                border-radius: 20px 20px 20px 0px;
+                border-color: rgba(255, 166, 0, 0.692);
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                font-size: 32px;
+                height: 70px;
+                width: 200px;
+                align-self:last baseline;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(138, 92, 7);
+            }
+    }
+}
+
+button:hover{
+    transition-duration: 0.4s;
+    background-color: #141314;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+.grid-container{
     display: grid;
     grid-template-columns: 100px repeat(4, 1fr) 100px;
     grid-template-rows: 100px repeat(4, 1fr) 100px;
-    grid-area: 
+    grid-template-areas: 
     ". . . . . ."
     ". . . . . ."
     ". . . . . ."
     ". . . . . ."
     ". . . . . ."
     ". . . . . .";
-    img{
-        height: 450px;
-        width: 450px;
-        grid-column: 2 / 4;
-        grid-row: 2 / 6;
-        align-self: center;
-        justify-self: center;
-        border-radius: 50% 50% 0px 50%;
-        grid-area: "img";
-    }
-    section{
-        
+}
+
+.grid-container .experiencias{
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
+.grid-container .proyectos{
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+}
+
+footer{
+    div{
+        p{
+            font-size: 15px;
+    
+        }
+            img{
+                height: 20px;
+                width: 20px;
+            }
     }
 }
+
+footer .footer__flex--container{
+    background-color: $background-terciario;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .footer__img{
+    display: flex;
+    gap: 1em;
+}
+
+
+
+
+
+
+
+
+
 
 
 

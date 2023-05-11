@@ -7,46 +7,59 @@
     <title>Home - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="headerlogo">
-                <img src="./assets/img/fnh.png" alt="">
-            </div>
-            <div>
-                <h2>Federico Nahuel Dal Degan</h2>
-                <h3>Argentina, Buenos Aires, San José</h3>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Sobre mi</a></li>
-                    <li><a href="">Proyectos</a></li>
-                    <li><a href="">Galeria</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
+        <nav>
+            <div class="flex-container">
+                <div>
+                    <a href="./index.html"><img src="./assets/img/fnh.png" alt="Logo personal"></a>
+                </div>
+                <div>
+                    <h2 class="nombre">Federico N. Dal Degan</h2>
+                    <h3 class="titulo">Web Developer</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="">Sobre mi</a></li>
+                        <li><a href="">Proyectos</a></li>
+                        <li><a href="">Galeria</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <img src="https://images.unsplash.com/photo-1612487495933-e94fbb1145e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-        <section>
-            <h2>Titulo</h2>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste cumque minima ullam, illum magnam vitae rerum sed aperiam in illo aliquam ad repellendus enim, quam, unde velit optio at.</h4>
-        </section>
-        <section>
-            <h2>Subtitulo</h2>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eos culpa labore nihil tempore iure, placeat quo ullam natus, illo reprehenderit eligendi ipsam sint voluptate corporis earum aperiam nostrum quae.</h4>
-        </section>
-        <div>
-            <button>CONTACTO</button>
+        <div class="grid-container">
+            <img src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/2.jpg" alt="">
+            <section class="experiencias">
+                <h2>Mis experiencias</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+            </section>
+            <section class="proyectos">
+                <h2>Futuros proyectos</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            </section>
+            <button><a href="https://steamcommunity.com/id/fonoha/" target="_blank">CONTACTO</a></button>
         </div>
     </main>
     <footer>
-
+        <div class="footer__flex--container">
+            <div class="footer__p">
+                <p>© 2023 by Federico Dal Degan. Powered and secured by no one :/</p>
+            </div>
+            <div class="footer__img">
+                <a href=""><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png" alt=""></a>
+                <a href=""><img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c7d035ba85f6486680c2facedecdcf4d.png" alt=""></a>
+                <a href=""><img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png" alt=""></a>
+                <a href=""><img src="https://static.wixstatic.com/media/dbcb9dab6c244854b4146cde5958b170.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/dbcb9dab6c244854b4146cde5958b170.png" alt=""></a>
+                <a href=""><img src="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/78aa2057f0cb42fbbaffcbc36280a64a.png" alt=""></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
