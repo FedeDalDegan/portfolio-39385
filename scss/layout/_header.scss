@@ -17,9 +17,29 @@ header{
                 font-size: 35px;
                 color: $font-color-primary;
             }
+            h2:hover, h3:hover{
+                color: red;
+                animation-name: h2nombre;
+                animation-duration: 10s;
+                @keyframes h2nombre {
+                    0%   {color: red;}
+                    10%  {color: yellow;}
+                    20%  {color: blue;}
+                    30% {color: violet;}
+                    40% {color: pink;}
+                    50% {color: orange;}
+                    60% {color: green;}
+                    70% {color: grey;}
+                    80% {color: black;}
+                    90% {color: wheat;}
+                    100% {color: white;}
+                }
+                
+            }
             h3{
                 font-size: 25px;
                 color: $font-color-primary;
+                text-align: center;
             }
             ul{
                 display: flex;
@@ -37,7 +57,7 @@ header{
                         color: $font-color-primary;
                     }
                     a:hover{
-                        transition-duration: 0.4s;
+                        transition-duration: .4s;
                         color: red;
                     }
                 }
@@ -50,3 +70,4 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
