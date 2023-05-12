@@ -1,0 +1,77 @@
+main{
+    div{
+        img{
+
+        }
+        p{
+            font-size: 16px;
+        }
+        span{
+            font-size: 20px;
+            color: white;
+            text-decoration: underline 1px rgba(255, 166, 0, 0.692);
+            text-decoration-style: double;
+            text-transform:uppercase;
+            text-shadow: 2px 2px 4px #000000
+        }
+    }
+}
+
+.grid__container--quiensoy{
+    background-image: radial-gradient(circle, #c6d2e5, #b5ccd5, #adc3c2, #acb9b1, #abaea5);
+    display: grid;
+    grid-template-columns: 2% repeat(8, 1fr) 2%;
+    grid-template-rows: 15% repeat(7,1fr);
+}
+
+.img__main--quiensoy{
+    border-radius: 0%;
+    height: 400px;
+    width: 300px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 7;
+    justify-self: flex-start;
+}
+
+.main__p--nombre{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding-left: 30px;
+}
+
+.main__p--edad{
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    justify-self: flex-start;
+    align-self: center;
+    padding-left: 30px;
+}
+
+.main__p--localidad{
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    justify-self: flex-start;
+    align-self: center;
+    
+    padding-left: 30px;
+}
+
+.main__p--estudios{
+    grid-column: 3 / 7;
+    grid-row: 5 / 6;
+    justify-self: flex-start;
+    align-self: center;
+    
+    padding-left: 30px;
+}
+
+.main__p--contacto{
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    justify-self: flex-start;
+    align-self: flex-end;
+    
+    padding-left: 30px;
+}

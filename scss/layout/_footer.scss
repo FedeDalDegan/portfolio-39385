@@ -1,0 +1,30 @@
+footer{
+    div{
+        p{
+            font-size: 15px;
+    
+        }
+            img{
+                height: 20px;
+                width: 20px;
+            }
+    }
+}
+
+footer .footer__flex--container{
+    background-color: $background-terciario;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .footer__img{
+    display: flex;
+    gap: 1em;
+}
+
+.footer__img img:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.3);
+}
