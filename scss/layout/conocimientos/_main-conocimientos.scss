@@ -1,0 +1,138 @@
+.conocimientos__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        font-size: 25px;
+        line-height: 60px;
+        text-shadow: 0 0 3px #dfd5d5, 0 0 5px #28282b;
+    }
+}
+
+/* Barra progreso 1 */
+
+.main__div--conocimientos1{
+    background: rgba(32, 32, 31, 0.822);
+    border-radius: 100px;
+    position: relative;
+    padding: 0 5px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.barra-progreso1{
+    animation: progreso1 3s normal forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    height: 30px;
+    width: 0;
+}   
+
+@keyframes progreso1{
+    0% { width: 0; }
+    100% { width: 85%; }
+    0% {background: #ff0000;}
+    20% {background: #ff4d00;}
+    40% {background: #ff7400;}
+    60% {background: #ff9a00;}
+    80% {background: #ffc100;}
+    100% {background: #13d61d;}
+}
+
+/* Barra progreso 2 */
+
+.main__div--conocimientos2{
+    background: rgba(32, 32, 31, 0.822);
+    border-radius: 100px;
+    position: relative;
+    padding: 0 5px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.barra-progreso2{
+    animation: progreso2 3s normal forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    height: 30px;
+    width: 0;
+}   
+
+@keyframes progreso2{
+    0% { width: 0; }
+    100% { width: 65%; }
+    0% {background: #ff0000;}
+    20% {background: #ff4d00;}
+    40% {background: #ff7400;}
+    60% {background: #ff9a00;}
+    100% {background: #ffc100;}
+}
+
+/* Barra progreso 3 */
+
+.main__div--conocimientos3{
+    background: rgba(32, 32, 31, 0.822);
+    border-radius: 100px;
+    position: relative;
+    padding: 0 5px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.barra-progreso3{
+    animation: progreso3 3s normal forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    height: 30px;
+    width: 0;
+}   
+
+@keyframes progreso3{
+    0% { width: 0; }
+    100% { width: 20%; }
+    0% {background: #ff0000;}
+    20% {background: #ff4d00;}
+    100% {background: #ff7400;}
+}
+
+/* Barra progreso 4 */
+
+.main__div--conocimientos4{
+    background: rgba(32, 32, 31, 0.822);
+    border-radius: 100px;
+    position: relative;
+    padding: 0 5px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.barra-progreso4{
+    animation: progreso4 3s normal forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    height: 30px;
+    width: 0;
+}   
+
+@keyframes progreso4{
+    0% { width: 0; }
+    100% { width: 5%; }
+    0% {background: #ff0000;}
+    100% {background: #ff4d00;}
+}
+
+

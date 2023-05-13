@@ -1,8 +1,6 @@
 main{
     background-color: $background-secondary;
     div{
-        img{
-        }
             h2{
                 font-size: 40px;
                 font-style: oblique;
@@ -26,6 +24,7 @@ main{
                 height: 70px;
                 width: 200px;
                 align-self:last baseline;
+                transition-duration: 0.4s;
             }
             a{
                 text-decoration: none;
@@ -38,7 +37,6 @@ button:hover{
     transition-duration: 0.4s;
     background-color: #141314;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-
 }
 
 
@@ -67,6 +65,7 @@ button:hover{
 }
 
 .index__img{
+    transition: .4s;
     height: 450px;
     width: 450px;
     grid-column: 2 / 4;
@@ -75,4 +74,10 @@ button:hover{
     justify-self: center;
     border-radius: 50% 50% 0px 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid rgba(105, 104, 101, 0.692);
+}
+
+.index__img:hover{
+    transition: .4s;
+    transform: scale(1.05);
 }

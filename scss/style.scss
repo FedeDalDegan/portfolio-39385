@@ -1,8 +1,14 @@
+/* Variables, mixins y fuentes. */
+
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./base/typo";
 
+/* Reset. */
+
 @import "./base/reset";
+
+/* Header, index y footer. */
 
 @import "./layout/header";
 
@@ -10,9 +16,13 @@
 
 @import "./layout/footer";
 
-/* Sobre mi */
+/* Sobre mi. */
 
-@import "./layout/sobremi/main-quiensoy"
+@import "./layout/sobremi/main-quiensoy";
+
+/* Conocimientos. */
+
+@import "./layout/conocimientos/main-conocimientos";
 
 
 
