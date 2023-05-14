@@ -1,8 +1,5 @@
 main{
     div .main__div--quiensoy{
-        background-image: radial-gradient(circle, #e2e9f4, #d9dde5, #d0d1d7, #c6c6c9, #bbbbbb);
-        img{
-        }
         p{
             font-size: 16px;
             text-shadow: 0 0 3px #dfd5d5, 0 0 5px #28282b;
@@ -116,4 +113,13 @@ main{
     grid-column: 5 / 7;
     grid-row: 5 / 6;
     align-items: center;
+}
+
+span{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline 1px rgba(255, 166, 0, 0.692);
+    text-decoration-style: double;
+    text-transform:uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }

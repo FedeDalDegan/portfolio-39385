@@ -1,0 +1,92 @@
+body{
+    background-color: #7e7474;
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'calibri';
+    text-align: center;
+    text-decoration: underline;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: #0e57f5;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.botons:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.mensaje{
+    height: 150px;
+}
+
+.h4form:hover{
+    animation-name: h4nombre;
+    animation-duration: 10s;
+}
+    @keyframes h4nombre {
+        0%   {color: red;}
+        10%  {color: yellow;}
+        20%  {color: blue;}
+        30% {color: violet;}
+        40% {color: pink;}
+        50% {color: orange;}
+        60% {color: green;}
+        70% {color: grey;}
+        80% {color: black;}
+        90% {color: wheat;}
+        100% {color: white;}
+}
