@@ -1,0 +1,44 @@
+main{
+    font-family: 'Cinzel', serif;
+    div{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.col{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+}
+
+.d-flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card{
+    width: 1000px;
+    text-align: center;
+    transition: 0.4s;
+    background-image: linear-gradient(to bottom, #f0dcd6, #b6a99f, #7f786e, #4b4a41, #1e211a);
+    border-radius: 15px 15px 0px 0px;   
+}
+
+.card:hover{
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+.card-title{
+    font-size: 25px;
+    color: rgb(182, 174, 174);
+}
+
+.card-text{
+    color: white;
+    font-size: 20px;
+}

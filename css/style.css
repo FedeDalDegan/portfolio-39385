@@ -96,7 +96,7 @@ main {
   main div h4 {
     font-size: 20px;
     padding-top: 10px; }
-  main div button {
+  main div .button__index--contacto {
     grid-row: 5 / 6;
     grid-column: 4 / 5;
     background-color: rgba(255, 255, 255, 0.678);
@@ -114,7 +114,7 @@ main {
     text-decoration: none;
     color: #8a5c07; }
 
-button:hover {
+.button__index--contacto:hover {
   transition-duration: 0.4s;
   background-color: #141314;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
@@ -526,3 +526,41 @@ body {
     color: wheat; }
   100% {
     color: white; } }
+
+/* Proytectos */
+main {
+  font-family: 'Cinzel', serif; }
+  main div {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.col {
+  width: 80%;
+  display: flex;
+  flex-direction: column; }
+
+.d-flex {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; }
+
+.card {
+  width: 1000px;
+  text-align: center;
+  transition: 0.4s;
+  background-image: linear-gradient(to bottom, #f0dcd6, #b6a99f, #7f786e, #4b4a41, #1e211a);
+  border-radius: 15px 15px 0px 0px; }
+
+.card:hover {
+  transform: scale(1.02);
+  transition: .4s; }
+
+.card-title {
+  font-size: 25px;
+  color: #b6aeae; }
+
+.card-text {
+  color: white;
+  font-size: 20px; }
