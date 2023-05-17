@@ -23,6 +23,7 @@ main{
 .card{
     width: 1000px;
     text-align: center;
+    justify-content: center;
     transition: 0.4s;
     background-image: linear-gradient(to bottom, #f0dcd6, #b6a99f, #7f786e, #4b4a41, #1e211a);
     border-radius: 15px 15px 0px 0px;   

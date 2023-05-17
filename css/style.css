@@ -509,6 +509,7 @@ main {
 .card {
   width: 1000px;
   text-align: center;
+  justify-content: center;
   transition: 0.4s;
   background-image: linear-gradient(to bottom, #f0dcd6, #b6a99f, #7f786e, #4b4a41, #1e211a);
   border-radius: 15px 15px 0px 0px; }
@@ -527,3 +528,76 @@ main {
 
 body {
   font-family: 'Cinzel', serif; }
+
+/* MediaQuerys */
+/* Header. Main index y Footer */
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 30px; }
+  footer .footer__flex--container {
+    justify-content: center;
+    flex-direction: column;
+    height: 230px;
+    gap: 30px; }
+  .footer__img {
+    flex-direction: column; }
+  .index__img {
+    grid-row: 2 / 5; }
+  .grid-container .experiencias {
+    grid-column: 5 / 6; }
+  .grid-container .proyectos {
+    grid-column: 5 / 6; }
+  main div .button__index--contacto {
+    grid-column: 2 / 4;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px 0px 20px 20px; }
+  .card {
+    width: 550px; } }
+
+@media (max-width: 768px) {
+  .index__img {
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+    border-radius: 0px 0px 25px 25px; }
+  .grid-container .experiencias {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: center;
+    text-align: center; }
+  .grid-container .proyectos {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    align-self: center;
+    justify-self: center;
+    text-align: center; }
+  main div .button__index--contacto {
+    grid-column: 2 / 2;
+    grid-row: 6 / 7;
+    align-self: last baseline;
+    justify-self: center;
+    border-radius: 20px 0px 20px 20px; }
+  .card {
+    width: 350px; } }
+
+@media (max-width: 320px), (max-width: 767px) {
+  header nav ul {
+    display: block;
+    line-height: 30px;
+    text-align: center; }
+  h2 {
+    text-align: center; }
+  .index__img {
+    height: 250px;
+    width: 250px; }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  footer .footer__flex--container {
+    height: 250px;
+    gap: 30px;
+    text-align: center; }
+  .card {
+    width: 250px; } }
