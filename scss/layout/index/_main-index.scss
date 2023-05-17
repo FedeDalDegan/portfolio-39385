@@ -1,35 +1,37 @@
 main{
     background-color: $background-secondary;
     div{
-            h2{
-                font-size: 40px;
-                font-style: oblique;
-                text-decoration: underline 2px rgba(255, 166, 0, 0.692);
-            }
-            
-            h4{
-                font-size: 20px;
-                padding-top: 10px;
-            }
-            .button__index--contacto{
-                grid-row: 5 / 6;
-                grid-column: 4 / 5;
-                background-color: rgba(255, 255, 255, 0.678);
-                border-radius: 20px 20px 20px 0px;
-                border-color: rgba(255, 166, 0, 0.692);
-                color: rgba(155, 147, 147, 0.63);
-                text-align: center;
-                text-decoration: none;
-                font-size: 32px;
-                height: 70px;
-                width: 200px;
-                align-self:last baseline;
-                transition-duration: 0.4s;
-            }
-            a{
-                text-decoration: none;
-                color: rgb(138, 92, 7);
-            }
+        h2{
+            font-size: 40px;
+            font-style: oblique;
+            text-decoration: underline 2px rgba(255, 166, 0, 0.692);
+            color: rgba(37, 36, 36, 0.959);
+        }
+        
+        h4{
+            font-size: 20px;
+            padding-top: 10px;
+            color: rgba(31, 30, 28, 0.589);
+        }
+        .button__index--contacto{
+            grid-row: 5 / 6;
+            grid-column: 4 / 5;
+            background-color: rgba(247, 239, 239, 0.678);
+            border-radius: 20px 20px 20px 0px;
+            border-color: rgba(255, 166, 0, 0.692);
+            color: rgba(99, 97, 97, 0.63);
+            text-align: center;
+            text-decoration: none;
+            font-size: 32px;
+            height: 70px;
+            width: 200px;
+            align-self:last baseline;
+            transition-duration: 0.4s;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(138, 92, 7);
+        }
     }
 }
 

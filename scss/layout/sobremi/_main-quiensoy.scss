@@ -1,19 +1,17 @@
 main{
-    div .main__div--quiensoy{
-        p{
-            font-size: 16px;
-            text-shadow: 0 0 3px #dfd5d5, 0 0 5px #28282b;
-        }
-        span{
-            font-size: 20px;
-            color: white;
-            text-decoration: underline 1px rgba(255, 166, 0, 0.692);
-            text-decoration-style: double;
-            text-transform:uppercase;
-            text-shadow: 2px 2px 4px #000000;
+    div{
+        section{
+            p{
+                font-size: 20px;
+                font-family: 'Pathway Gothic One', sans-serif;
+                font-style: italic;
+                color: white;
+                text-shadow: 2px 2px 4px #000000;
+            }
         }
     }
 }
+
 
 .grid__container--quiensoy{
     display: grid;
@@ -40,7 +38,7 @@ main{
 }
 
 .main__p--nombre{
-    grid-column: 3 / 5;
+    grid-column: 3 / 6;
     grid-row: 2 / 3;
     justify-self: flex-start;
     align-self: flex-start;
@@ -48,78 +46,43 @@ main{
 }
 
 .main__p--edad{
-    grid-column: 3 / 5;
+    grid-column: 3 / 6;
     grid-row: 3 / 4;
     justify-self: flex-start;
-    align-self: center;
+    align-self: flex-start;
     text-indent: 30px;
 }
 
 .main__p--localidad{
-    grid-column: 3 / 5;
+    grid-column: 3 / 7;
     grid-row: 4 / 5;
     justify-self: flex-start;
-    align-self: center;
+    align-self: flex-start;
     text-indent: 30px;
 }
 
 .main__p--estudios{
-    grid-column: 3 / 7;
+    grid-column: 3 / 10;
     grid-row: 5 / 6;
     justify-self: flex-start;
-    align-self: center;
+    align-self: flex-start;
     text-indent: 30px;
 }
 
 .main__p--contacto{
-    grid-column: 3 / 5;
+    grid-column: 3 / 7;
     grid-row: 6 / 7;
     justify-self: flex-start;
-    align-self: flex-end;
+    align-self: flex-start;
     text-indent: 30px;
 }
 
-.grid__container--lomasdezamora{
-    display: grid;
-    grid-template-columns: 2% repeat(8, 1fr) 2%;
-    grid-template-rows: 15% repeat(7,1fr);
-}
-
-.img__main--lomasdezamora{
-    height: 500px;
-    width: 800px;
-    border: 2px solid black;
-    grid-column: 7 / 10;
-    grid-row: 2 / 7;
-    justify-self: flex-end;
-    filter: saturate(2);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.4s;
-    transform: scale(1);
-}
-
-.img__main--lomasdezamora:hover{
-    transition: 0.4s;
-    transform: scale(1.05);
-}
-
-.main__p--nacionalidad{
-    grid-column: 5 / 7;
-    grid-row: 3 / 4;
-    align-self: center;
-}
-
-.main__p--nacimiento{
-    grid-column: 5 / 7;
-    grid-row: 5 / 6;
-    align-items: center;
-}
-
 span{
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: rgba(192, 190, 188, 0.863);
     text-decoration: underline 1px rgba(255, 166, 0, 0.692);
     text-decoration-style: double;
     text-transform:uppercase;
     text-shadow: 2px 2px 4px #000000;
+
 }
