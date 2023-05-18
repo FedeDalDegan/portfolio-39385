@@ -37,7 +37,7 @@ A lo largo de mi sitio web se podra ver la utilizacion de los conocimientos que 
 - FlexBox
 - Grids
 - BootStrap
-- MediaQuerys
+- Modelo Responsive
 - SEO
 - Hostings
 - ResponsevelyApp
@@ -50,9 +50,9 @@ A lo largo de mi sitio web se podra ver la utilizacion de los conocimientos que 
 ### ***Agradecimientos y nota final.***
 
 Gracias al profesor (Maximiliano Cardenas) por la dedicacion al aprendizaje, conocimiento y estudio. A su vez, tambien a su grupo de tutores (Camila Yacante, Cecilia Jacqueline Alvarez y Lucas Fernandez) por lo antes mencionado. 
-Y, en especial, a Lucas Fernandez por las correciones dadas a lo largo de mis Preentregas.
+Y, en especial, a Lucas Fernandez por las correciones dadas a lo largo de mis preentregas.
 
-Tambien cabe mencionar la buena actitud de mis compañeros, ya que a lo largo de este tiempo, se creo un grupo de WhatsApp y de Discord los cuales fueron utilizados (No solo para aprender y ayudarnos mutuamente), si no que tambien fueron usados como un medio de compartir nuestras experiencias y proyectos.
+Tambien cabe mencionar la buena actitud de mis compañeros, ya que a lo largo de este tiempo, se creo un grupo de WhatsApp y Discord los cuales fueron utilizados (No solo para aprender y ayudarnos mutuamente), si no que tambien fueron usados como un medio de compartir nuestras experiencias y proyectos.
 
 ------------
 
