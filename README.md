@@ -24,7 +24,7 @@
 
 
 
-### *** Objetivos.***
+### ***Objetivos:***
 
 El objetivo de mi proyecto llamado *"Reflejos de mi trayectoria"*, ha sido el de crear un sitio web propio en el que poder darme a conocer en este mundo, (el cual es nuevo para mi), del desarrollo web y la programación.
 
