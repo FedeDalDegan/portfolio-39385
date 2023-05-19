@@ -44,7 +44,12 @@ A lo largo de mi sitio web se podra ver la utilizacion de los conocimientos que 
 
 
 ------------
+### ***Notas a tener en cuenta.***
 
+Como se puede apreciar, hay ciertos guiños, transiciones y demás que son a modo de prueba para tener una proyeccion de lo que es posible hacer en CSS.
+No deben ser tomados de forma seria, ya que su incorporacion fue meramente creada con fines y propositos educativos.
+
+------------
 
 
 ### ***Agradecimientos y nota final.***

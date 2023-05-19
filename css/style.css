@@ -93,11 +93,11 @@ main {
     font-size: 40px;
     font-style: oblique;
     text-decoration: underline 2px rgba(255, 166, 0, 0.692);
-    color: rgba(37, 36, 36, 0.959); }
+    color: rgba(19, 18, 18, 0.959); }
   main div h4 {
     font-size: 20px;
     padding-top: 10px;
-    color: rgba(31, 30, 28, 0.589); }
+    color: rgba(29, 2, 2, 0.596); }
   main div .button__index--contacto {
     grid-row: 5 / 6;
     grid-column: 4 / 5;
