@@ -32,8 +32,22 @@ footer .footer__img{
     gap: 1em;
 }
 
+/* Ides descartada. Rotacion 360º infinita. */
+
+// .footer__img img:hover{
+//     animation: rotation 2s infinite linear;
+//     @keyframes rotation {
+//         from {
+//             transform: rotate(0deg);
+//         }
+//         to {
+//             transform: rotate(359deg);
+//         }
+//     }
+// }
+
 .footer__img img:hover{
-    transition-duration: 0.4s;
+    transition: .4s;
     transform: scale(1.3);
 }
 
