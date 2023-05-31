@@ -1,0 +1,28 @@
+@mixin flex ($direction,$wrap,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid ($col,$row,$justify,$align,$area){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    justify-content: $justify;
+    align-items: $align;
+    grid-template-areas: $area;
+}
+
+@mixin colrow ($row1,$col1,$self1,$justifys1,){
+    grid-row: $row1;
+    grid-column: $col1;
+    align-self: $self1;
+    justify-self: $justifys1;
+}
+
+@mixin columnrow ($column,$rows){
+    grid-column: $column;
+    grid-row: $rows;
+}

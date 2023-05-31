@@ -100,8 +100,10 @@ main {
     padding-top: 10px;
     color: rgba(0, 0, 0, 0.596); }
   main div .button__index--contacto {
-    grid-row: 5 / 6;
+    grid-column: 0.8;
+    grid-row: 0.83333;
     grid-column: 4 / 5;
+    grid-row: 5 / 6;
     background-color: rgba(247, 239, 239, 0.678);
     border-radius: 20px 20px 20px 0px;
     border-color: rgba(255, 166, 0, 0.692);
@@ -125,8 +127,7 @@ main {
 .grid-container {
   display: grid;
   grid-template-columns: 100px repeat(4, 1fr) 100px;
-  grid-template-rows: 100px repeat(4, 1fr) 100px;
-  grid-template-areas: ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ."; }
+  grid-template-rows: 100px repeat(4, 1fr) 100px; }
 
 .grid-container .experiencias {
   grid-row: 2 / 3;
@@ -176,7 +177,7 @@ footer .footer__img {
   display: flex;
   gap: 1em; }
 
-/* Ides descartada. Rotacion 360º infinita. */
+/* Idea descartada. Rotacion 360º infinita. */
 .footer__img img:hover {
   transition: .4s;
   transform: scale(1.3); }
@@ -273,8 +274,9 @@ span {
 .conocimientos__main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: center; }
   .conocimientos__main p {
     text-align: center;
     font-size: 25px;
@@ -290,6 +292,9 @@ span {
   height: 40px;
   width: 500px;
   display: flex;
+  flex-direction: auto;
+  flex-wrap: auto;
+  justify-content: auto;
   align-items: center; }
 
 .barra-progreso1 {
@@ -326,6 +331,9 @@ span {
   height: 40px;
   width: 500px;
   display: flex;
+  flex-direction: auto;
+  flex-wrap: auto;
+  justify-content: auto;
   align-items: center; }
 
 .barra-progreso2 {
@@ -360,6 +368,9 @@ span {
   height: 40px;
   width: 500px;
   display: flex;
+  flex-direction: auto;
+  flex-wrap: auto;
+  justify-content: auto;
   align-items: center; }
 
 .barra-progreso3 {
@@ -389,9 +400,12 @@ span {
   padding: 0 5px;
   height: 40px;
   width: 500px;
+  margin-bottom: 40px;
   display: flex;
-  align-items: center;
-  margin-bottom: 40px; }
+  flex-direction: auto;
+  flex-wrap: auto;
+  justify-content: auto;
+  align-items: center; }
 
 .barra-progreso4 {
   animation: progreso4 2s normal forwards;
@@ -514,9 +528,13 @@ main {
 .col {
   width: 80%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  flex-wrap: auto;
+  justify-content: auto;
+  align-items: auto; }
 
 .d-flex {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;

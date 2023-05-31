@@ -8,15 +8,11 @@ main{
 
 .col{
     width: 80%;
-    display: flex;
-    flex-direction:column;
+    @include flex (column, auto, auto, auto);
 }
 
 .d-flex{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, wrap, center, center);
     gap: 15px;
 }
 
